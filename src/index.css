@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn_primary {
+  @apply bg-purple-400 hover:bg-purple-500 py-4 px-6 align-middle items-center rounded-md text-white;
+}
+.btn_secondary {
+  @apply bg-gray-600 hover:bg-gray-700 py-4 px-6 align-middle items-center rounded-md text-white;
+}
